@@ -1,0 +1,47 @@
+[33mcommit db138844ee6e0201c073ed6daa738d7a11a44605[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: luciolnoleto <luciolnoleto@gmail.com>
+Date:   Thu May 16 10:04:22 2024 -0300
+
+    Agora vai ..
+
+[33mcommit d8d9903131ae13530a07225aa952d098c76a4f52[m
+Author: luciolnoleto <luciolnoleto@gmail.com>
+Date:   Thu May 16 09:23:39 2024 -0300
+
+    remove token
+
+[33mcommit 1849249f93fca838254840978cad55782b202249[m
+Author: luciolnoleto <luciolnoleto@gmail.com>
+Date:   Thu May 16 09:19:07 2024 -0300
+
+    persistindo dados com JPA
+
+[33mcommit 198865a108ac6cbbdfdb7c3c72e9a1f1fec8af68[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: luciolnoleto <luciolnoleto@gmail.com>
+Date:   Mon Apr 29 13:58:04 2024 -0300
+
+    Aula 04
+
+[33mcommit 9e652e376ee6fe1c7c18cf3f590c1f0a081fbbb4[m
+Author: luciolnoleto <luciolnoleto@gmail.com>
+Date:   Mon Apr 29 11:07:09 2024 -0300
+
+    Aula 03
+
+[33mcommit 52f473818022c728e3ed3188678bd8583da52b05[m
+Author: luciolnoleto <luciolnoleto@gmail.com>
+Date:   Fri Apr 26 15:34:35 2024 -0300
+
+    Modelando a classe DadosTemporada.class
+
+[33mcommit dc81a8fa89d2cb4ad193666c41e316949ceefe7f[m
+Author: luciolnoleto <luciolnoleto@gmail.com>
+Date:   Fri Apr 26 11:00:13 2024 -0300
+
+    Modelando a DadosEpsodio.class
+
+[33mcommit bd8de937e4850dc20172cb5d67fe64b44b4961dd[m
+Author: luciolnoleto <luciolnoleto@gmail.com>
+Date:   Fri Apr 26 10:28:14 2024 -0300
+
+    Inicio do Projeto Spring
