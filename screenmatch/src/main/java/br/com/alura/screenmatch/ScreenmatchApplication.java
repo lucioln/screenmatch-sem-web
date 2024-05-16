@@ -1,6 +1,8 @@
 package br.com.alura.screenmatch;
-// LA LA
+
 import br.com.alura.screenmatch.principal.Principal;
+import br.com.alura.screenmatch.repository.SerieRepository;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -12,17 +14,13 @@ public class ScreenmatchApplication implements CommandLineRunner {
 		SpringApplication.run(ScreenmatchApplication.class, args);
 	}
 
+	@Autowired
+	private SerieRepository repositorio;
+
 	@Override
 	public void run(String... args) throws Exception {
 
-		Principal principal = new Principal();
+		Principal principal = new Principal(repositorio);
 		principal.exibeMenu();
-		/*var jsonEpsodio = consumoApi.obterDados("http://www.omdbapi.com//?t=gilmore+girls&season=1&episode=2&apikey=1f608789");
-		DadosEpsodio dadosEpsodio = converteDados.obterDados(jsonEpsodio, DadosEpsodio.class);
-		System.out.println(dadosEpsodio);
-
-		var jsonTemporada = consumoApi.obterDados("http://www.omdbapi.com//?t=gilmore+girls&season=1&apikey=1f608789");
-		DadosTemporada dadosTemporada = converteDados.obterDados(jsonTemporada, DadosTemporada.class);
-		System.out.println(dadosTemporada);*/
 	}
 }
