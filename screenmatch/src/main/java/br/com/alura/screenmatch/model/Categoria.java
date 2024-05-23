@@ -3,11 +3,11 @@ package br.com.alura.screenmatch.model;
 import java.security.PrivilegedAction;
 
 public enum Categoria {
-    ACAO("Action", "Ação"),
-    ROMANCE("Romance", "Romance"),
-    COMEDIA("Comedy", "Comedia"),
-    DRAMA("Drama", "Drama"),
-    CRIME("Crime", "Crime");
+    ACAO("Action", "ação"),
+    ROMANCE("Romance", "romance"),
+    COMEDIA("Comedy", "comédia"),
+    DRAMA("Drama", "drama"),
+    CRIME("Crime", "crime");
 
     private String categoriaOmdb;
     private String categoriaPortugues;
